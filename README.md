@@ -16,5 +16,5 @@ This module removes the restriction by replacing this configuration file.
 
  **注意**：为了开启 `Google Location History` 服务，你可能还需要配合其他模块   
  例如
- Magisk 模块: [Riru - Location Report Enabler](https://github.com/RikkaApps/Riru-LocationReportEnabler)     
+ Magisk 模块: ~~[Riru - Location Report Enabler](https://github.com/RikkaApps/Riru-LocationReportEnabler)~~     
  或者 Xposed 模块 [LocationReportEnabler](https://github.com/GhostFlying/LocationReportEnabler)

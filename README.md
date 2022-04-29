@@ -11,6 +11,7 @@ This module removes the restriction by replacing this configuration file.
 
  ```xml
  <feature name="cn.google.services" />
+ <feature name="com.google.android.feature.services_updater" />
  ``` 
  以此来实现去除国行 GMS 的限制。
 

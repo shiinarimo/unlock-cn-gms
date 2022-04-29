@@ -22,3 +22,4 @@ fi
 mkdir -p $(dirname $target)
 cp -f $origin $target
 sed -i '/cn.google.services/d' $target
+sed -i '/services_updater/d' $target

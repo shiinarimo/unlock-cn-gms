@@ -9,6 +9,8 @@ elif [ -e /vendor/etc/permissions/services.cn.google.xml ]; then
     origin=/vendor/etc/permissions/services.cn.google.xml
 elif [ -e /product/etc/permissions/services.cn.google.xml ]; then
     origin=/product/etc/permissions/services.cn.google.xml
+elif [ -e /product/etc/permissions/cn.google.services.xml ]; then
+    origin=/product/etc/permissions/cn.google.services.xml
 else
     exit 0
 fi

@@ -2,6 +2,7 @@
 # Please don't hardcode /magisk/modname/... ; instead, please use $MODDIR/...
 # This will make your scripts compatible even if Magisk change its mount point in the future
 MODDIR=${0%/*}
+mount -o ro,bind $MODDIR/oplus_google_cn_gms_features.xml /my_bigball/etc/permissions/oplus_google_cn_gms_features.xml
 
 if [ -e /system/etc/permissions/services.cn.google.xml ]; then
     origin=/system/etc/permissions/services.cn.google.xml
